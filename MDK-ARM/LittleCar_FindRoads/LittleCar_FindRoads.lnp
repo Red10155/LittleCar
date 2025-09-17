@@ -1,0 +1,23 @@
+--cpu Cortex-M3
+"littlecar_findroads\startup_stm32f103xb.o"
+"littlecar_findroads\main.o"
+"littlecar_findroads\stm32f1xx_it.o"
+"littlecar_findroads\stm32f1xx_hal_msp.o"
+"littlecar_findroads\stm32f1xx_hal_gpio_ex.o"
+"littlecar_findroads\stm32f1xx_hal_tim.o"
+"littlecar_findroads\stm32f1xx_hal_tim_ex.o"
+"littlecar_findroads\stm32f1xx_hal.o"
+"littlecar_findroads\stm32f1xx_hal_rcc.o"
+"littlecar_findroads\stm32f1xx_hal_rcc_ex.o"
+"littlecar_findroads\stm32f1xx_hal_gpio.o"
+"littlecar_findroads\stm32f1xx_hal_dma.o"
+"littlecar_findroads\stm32f1xx_hal_cortex.o"
+"littlecar_findroads\stm32f1xx_hal_pwr.o"
+"littlecar_findroads\stm32f1xx_hal_flash.o"
+"littlecar_findroads\stm32f1xx_hal_flash_ex.o"
+"littlecar_findroads\stm32f1xx_hal_exti.o"
+"littlecar_findroads\system_stm32f1xx.o"
+--strict --scatter "LittleCar_FindRoads\LittleCar_FindRoads.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LittleCar_FindRoads.map" -o LittleCar_FindRoads\LittleCar_FindRoads.axf
