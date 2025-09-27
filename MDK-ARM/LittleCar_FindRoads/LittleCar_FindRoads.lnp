@@ -1,6 +1,8 @@
 --cpu Cortex-M3
 "littlecar_findroads\startup_stm32f103xb.o"
 "littlecar_findroads\main.o"
+"littlecar_findroads\gpio.o"
+"littlecar_findroads\tim.o"
 "littlecar_findroads\stm32f1xx_it.o"
 "littlecar_findroads\stm32f1xx_hal_msp.o"
 "littlecar_findroads\stm32f1xx_hal_gpio_ex.o"

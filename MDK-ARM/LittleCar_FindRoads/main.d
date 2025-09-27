@@ -27,3 +27,6 @@ littlecar_findroads\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_fl
 littlecar_findroads\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 littlecar_findroads\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h
 littlecar_findroads\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
+littlecar_findroads\main.o: ../Core/Inc/tim.h
+littlecar_findroads\main.o: ../Core/Inc/gpio.h
+littlecar_findroads\main.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
